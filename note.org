@@ -1,0 +1,23 @@
+* OutLine
+** [[*org-mode][org-mode]]
+*** [[*org-open-at-point][org-open-at-point]]
+*** [[*Tab/Shift+Tab][Tab/Shift+Tab]]
+*** [[*org-ctrl-c-star][org-ctrl-c-star]]
+* Content
+** org-mode
+
+*** org-open-at-point
+    在看帮助的时候，在大纲标题上可以使用C-c C-o(org-open-at-point)跳到内容章节
+*** Tab/Shift+Tab
+    在查看org的时候，可以使用Tab展开或者某一个折叠标题，Shift+Tab 是全部
+*** org-ctrl-c-star
+    创建标题快捷方式是(C-c *)
+*** org-store-link
+    存储一个链接(link),并在大纲中insert 这个链接，就可以通过org-open-at-point快速跳到大纲对应的conten
+** spacemacs config
+*** install package for github not elpa
+  安装非elpa下载源里面的package，配置方法如下：                             
+  在init.el属性dotspacemcas-additional-packages 里面添加
+ (awesome-tab :location (recipe :fetcher github :repo "manateelazycat/awesome-tab"))
+
+
